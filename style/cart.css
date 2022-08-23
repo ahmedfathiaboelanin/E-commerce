@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Amiri', serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'DynaPuff', cursive;
+}
+/* -------------------------------------------------- */
+/* start sec1 */
+.sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:radial-gradient(#fff, #ffd6d6);
+}
+/* end sec1 */
+/* start sec2 */
+.sec2{
+    width: 100%;
+    padding: 100px 0px;
+    background:radial-gradient(#fff, #ffd6d6);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec2 .table{
+    width: 60%;
+    /* background-color: aqua; */
+    padding: 20px 0px;
+}
+.first-col{
+    display: flex;
+    align-items: center;
+}
+.first-col p{
+    width: 130px;
+    margin-left: 10px;
+}
+.first-col button{
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+.sec2 td img{
+    width: 50px;
+}
+.sec2 td input{
+    width: 30px;
+    height: 30px;
+}
+.first-row{
+    background-color: orangered;
+    color: white;
+}
+.last-col{
+    text-align: end;
+}
+.small-table{
+    width: 30%;
+    border-top: 5px solid orangered;
+    margin-bottom: 20px;
+}
+.money{
+    text-align: end;
+}
+.container a{
+    padding: 10px;
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.container a:hover{
+    background-color: rgb(185, 57, 11);
+    transition: .5s;
+}
+/* end sec2 */

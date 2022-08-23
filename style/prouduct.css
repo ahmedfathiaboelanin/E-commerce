@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Amiri', serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'DynaPuff', cursive;
+}
+/* -------------------------------------------------- */
+/* start sec1 */
+.sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:radial-gradient(#fff, #ffd6d6);
+}
+/* start sec2 */
+.sec2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+/* start 2nd */
+.sec2 ._2nd{
+    padding: 50px 0px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sec2 ._2nd h1{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sec2 ._2nd h1 select{
+    border: 1px solid salmon;
+    outline: none;
+}
+._2nd h1 span{
+    border-bottom: 3px solid orangered;
+}
+.sec2 ._2nd .dv2, .dv2-1{
+    width: 230px;
+    height: 420px;
+    margin: 20px 10px;
+    /* background-color: aqua; */
+}
+.dv2 img, .dv2-1 img{
+    width: 100%;
+    height: 60%;
+}
+.dv2 p, .dv2-1 p{
+    margin: 15px 0px;
+    padding-left: 5px;
+}
+.dv2 span, .dv2-1 span{
+    padding-left: 5px;
+}
+.dv2 p a, .dv2-1 p a{
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.dv2 p a:hover, .dv2-1 p a:hover{
+    background-color: rgb(172, 51, 8);
+    transition: .5s;
+}
+.fa-star{
+    color: gold;
+}
+.btn{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+}
+.btn button{
+    width: 50px;
+    height: 50px;
+    background:radial-gradient(#fff, #ffd6d6);
+    border: none;
+    margin: 0px 5px;
+    border-radius: 10px;
+}
+.btn button:hover{
+    transform: scale(1.2);
+    transition: .5s;
+    cursor: pointer;
+}
+/* .dv2-1{
+    display: none;
+} */
+/* .dv2-1, .dv2-2, .dv2-3, .dv2-4{
+    display: none;
+} */
+/* start sec2 */

@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Amiri', serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'DynaPuff', cursive;
+}
+/* -------------------------------------------------- */
+/* start sec1 */
+.sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:radial-gradient(#fff, #ffd6d6);
+}
+/* start container1 */
+.container1{
+    padding: 20px 0px;
+    width: 80%;
+    /* height: 580px; */
+    display: flex;
+    flex-wrap:wrap-reverse;
+    align-items: center;
+    justify-content: center;
+}
+/* start left */
+.container1_left, .container1_right{
+    width: 539.5px;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dv{
+    display: flex;
+    flex-direction: column;
+    width:70% ;
+}
+.container1_left .dv h1{
+    font-size: 35px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.container1_left .dv p{
+    font-size: 15px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.container1_left .dv a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: orangered;
+    max-width: 120px;
+    border-radius: 10px;
+}
+.container1_left .dv a:hover{
+    background-color: rgb(105, 43, 1);
+}
+/* end left */
+/* start right */
+.container1_right img{
+    width: 100%;
+}
+/* end right*/
+/* end container1 */
+/* end sec1 */
+/* ---------------------------------------------------------------------------- */
+/* start sec2 */
+.sec2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* start 1st */
+.sec2 ._1st{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+.sec2 ._1st .dv1{
+    width: 230px;
+    height: 280px;
+    margin: 20px 10px;
+}
+.dv1 img{
+    width: 100%;
+    height: 100%;
+}
+/* end 1st */
+/* start 2nd */
+.sec2 ._2nd{
+    padding: 50px 0px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sec2 ._2nd h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+._2nd h1 span{
+    border-bottom: 3px solid orangered;
+}
+.sec2 ._2nd .dv2{
+    width: 230px;
+    height: 350px;
+    margin: 20px 10px;
+}
+.sec2 ._2nd .dv2:hover{
+    margin-top: 0px;
+    transition: ease-in-out;
+    transition: 1s;
+    cursor: pointer;
+}
+.dv2 img{
+    width: 100%;
+    height: 80%;
+}
+.dv2 p{
+    margin: 3px 0px;
+}
+.fa-star{
+    color: gold;
+}
+/* end 2nd */
+/* end sec2 */
+/* ---------------------------------------------------------------------- */
+/* start sec3 */
+.sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* min-height: 1000px; */
+    padding: 50px 0px;
+    background:radial-gradient(#fff, #ffd6d6);
+}
+.dv3-1{
+    width: 300px;
+    height: 300px;
+    /* background-color: #ffd6d6; */
+    display: flex;
+    justify-content: flex-end;
+}
+.dv3-1 img{
+    width: 300px;
+    /* height:; */
+}
+.dv3-2{
+    width: 539px;
+    height: 300px;
+    padding: 20px 0px 0px 20px ;
+}
+.dv3-2 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dv3-2 h2{
+    font-size: 40px;
+    margin: 30px 0px;
+}
+.dv3-2 a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+}
+.dv3-2 a i{
+    margin-left: 5px;
+}
+.dv3-2 a:hover{
+    background-color: rgb(105, 43, 1);
+}
+/* end sec3 */
+/* ---------------------------------------------------------------------------- */
+/* start sec4 */
+.sec4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0px;
+    align-items: center;
+    /* background-color: #ffd6d6; */
+}
+.sec4 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(230, 230, 230);
+    padding: 0px 10px;
+    margin: 10px 10px;
+}
+.sec4 i{
+    font-size: 40px;
+    color: orangered;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sec4 p i{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.sec4 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+/* end sec4 */
+/* ---------------------------------------------------------------------------- */

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Amiri', serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'DynaPuff', cursive;
+}
+/* -------------------------------------------------- */
+/* start sec1 */
+.sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:radial-gradient(#fff, #ffd6d6);
+}
+/* end sec1 */
+/* start sec2 */
+.sec2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    background-color: #ffd6d6;
+}
+.sec2 .left{
+    width: 275px;
+}
+.left img{
+    width: 100%;
+}
+.sec2 .right{
+    width: 275px;
+    border: 2px solid rgb(233, 204, 201);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 6px palevioletred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right h1{
+    margin-top: 10px;
+}
+.sec2 .right form{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec2 .right input{
+    display: block;
+    width: 70%;
+    height: 30px;
+    margin: 5px 0px;
+    border: none;
+    outline: none;
+    padding:0px 5px;
+    border-radius: 5px;
+}
+.right input[type=submit]{
+    cursor: pointer;
+}
+.right button{
+    margin: 20px 0px;
+    background-color: rgb(255, 0, 98);
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#in{
+    display: none;
+}

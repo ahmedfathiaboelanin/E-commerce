@@ -1,0 +1,80 @@
+footer{
+    width: 100%;
+    padding: 30px 50px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer p{
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+}
+footer ul{
+    width: 200px;
+}
+footer ul li{
+    list-style: none;
+    margin: 10px ;
+    color: palevioletred;
+}
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+footer li i{
+    margin-right: 10px;
+}
+footer li a .fa-facebook{
+    color: rgb(13, 71, 231);
+}
+.fa-address-book{
+    color: orangered;
+}
+.fa-square-whatsapp{
+    color: rgb(5, 228, 5);
+    font-size: 20px;
+}
+.fa-square-instagram{
+    color: purple;
+    font-size: 20px;
+}
+.fa-linkedin{
+    font-size: 20px;
+    background-color: blue;
+}
+.fa-square-github{
+    font-size: 20px;
+    color: rgb(173, 162, 162);
+}
+.fa-id-badge{
+    font-size: 20px;
+}
+.fa-link{
+    font-size: 20px;
+    color: white;
+}
+.top{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+.top i{
+    font-size: 30px;
+    color: rgb(255, 6, 6);
+}
+.down{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.down i{
+    font-size: 30px;
+    color: rgb(255, 6, 6);
+}
+.top:hover, .down:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
